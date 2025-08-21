@@ -36,6 +36,10 @@ public class Condicional {
 		} else {
 			System.out.println("Você escolheu sair");
 		}
+		
+		System.out.print("Olá ");
+		System.out.print("mundo");
+		
 	}
 
 }
