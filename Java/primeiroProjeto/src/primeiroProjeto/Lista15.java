@@ -1,0 +1,59 @@
+package primeiroProjeto;
+
+import java.util.Scanner;
+
+public class Lista15 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//1\\
+		String[] frutas = new String[5];
+		for (int ex1 = 0; ex1 < frutas.length; ex1++) {
+			System.out.println("digite friuta");
+			frutas[ex1] = scanner.next();
+		}
+		for (int ex11 = 0; ex11 < frutas.length; ex11 ++) {
+			System.out.println(frutas[ex11]);
+		}
+		//2\\
+		int[] ex2 = new int[10];
+		for (int ex1 = 0; ex1 < ex2.length; ex1++) {
+			System.out.println("digite numero");
+			ex2[ex1] = scanner.nextInt();
+		}
+		for (int ex11 = 0; ex11 < ex2.length; ex11 ++) {
+			System.out.println(ex2[ex11]);
+		}
+		//3\\
+		int[] ex3 = new int[7];
+		for (int ex1 = 0; ex1 < ex3.length ; ex1++) {
+			System.out.println("digite numero");
+			ex3[ex1] = scanner.nextInt();
+		}
+		for (int ex11 = 6; ex11 >= ex3.length; ex11 --) {
+			System.out.println(ex3[ex11]);
+		}
+		//4\\
+		int[] ex4 = new int[10];
+		for (int ex1 = 0; ex1 < ex4.length ; ex1++) {
+			System.out.println("digite numero");
+			ex4[ex1] = scanner.nextInt();
+			if (ex4[ex1] > 100) {
+				System.out.println("maior que 100");
+				ex1 =- 1;
+			}
+		}
+		for (int ex11 = 0; ex11 < ex4.length; ex11 ++) {
+			System.out.println(ex4[ex11]);
+		}
+		//5\\
+		int[] ex5 = new int[8];
+		
+		//6\\
+		
+		//7\\
+	}
+
+}
