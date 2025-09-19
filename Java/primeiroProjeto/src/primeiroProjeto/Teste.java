@@ -8,15 +8,13 @@ public class Teste {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		for(int ex7 = 1; ex7 <= 5; ex7 ++) {
-			System.out.println("fale nota");
-			int nota = scanner.nextInt();
-			if (nota < 9999999) {
-				System.out.println("reprovado");
-			} else {
-				System.out.println("talvez aprovado");
+		int num5 = 0;
+		for(int ex5 = 1; ex5 <= 50; ex5 ++) {
+			if (ex5%3 == 0) {
+				num5 += 1;
 			}
 		}
+		System.out.println(num5);
 		
 	}
 
