@@ -48,12 +48,53 @@ public class Lista15 {
 		for (int ex11 = 0; ex11 < ex4.length; ex11 ++) {
 			System.out.println(ex4[ex11]);
 		}
-		//5\\
-		int[] ex5 = new int[8];
+//		5 - Procurando um valor no vetor
 		
-		//6\\
+		int[] vetor = new int[8];
+		for(int e= 0;e<8;e++) {
+			System.out.println("digite um numero: ");
+			vetor[e] = scanner.nextInt();
+		}
+		System.out.println("Qual valor voce quer ver: ");
+		int escolha = scanner.nextInt();
+		if(escolha <=7) {
+			System.out.println(vetor[escolha]);
+		}else {
+			System.out.println("fora de escopo");
+		}
 		
-		//7\\
+//		6 - Nome e idade de 5 pessoas
+		String[] nome = new String[5];
+		int[] idade = new int[5];
+		for(int e = 0;e <5;e++) {
+			System.out.println("Qual e o seu nome: ");
+			nome[e] = scanner.next();
+			System.out.println("Qual e a sua idade: ");
+			idade[e] = scanner.nextInt();
+		}
+		for(int e = 0;e <5;e++) {
+			System.out.println(nome[e]+" tem "+idade[e]+" anos");
+		}
+		
+//		7 - Identificação de idade
+		int[] velice = new int[10];
+		for(int e =0;e <5;e++){
+			System.out.println("Qual é a sus idade: ");
+			velice[e] = scanner.nextInt();
+			if(velice[e] < 18) {
+				System.out.println("você é menor de idade");
+			}
+		}
+		
+//		8 - Aumento em massa
+		int[] salario = new int[7];
+		for(int e =0;e<7;e++) {
+			System.out.println("Qual e o seu salario atual: ");
+			salario[e] = scanner.nextInt();
+			if(salario[e] <=2500) {
+				System.out.println("você receberá um aumento");
+			}
+		}
 	}
 
 }
