@@ -1,0 +1,43 @@
+package primeiroProjeto;
+
+import java.util.Scanner;
+
+public class Lista14 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//1
+		for(int ex1 = 1; ex1 <= 10; ex1 ++) {
+			System.out.println(ex1);
+		}
+		//2
+		int soma = 0;
+		for(int ex2 = 1; ex2 <= 100; ex2++) {
+			soma = ex2 + soma;
+			System.out.println(soma);
+		}
+		//3
+		for(int ex3 = 1; ex3 <= 20; ex3 ++) {
+			if (ex3%2 == 0) {
+				System.out.println(ex3);
+			}
+		}
+		//4
+		System.out.println("fale numero");
+		int numero4 = scanner.nextInt();
+		for(int ex4 = 1; ex4 <= 10; ex4 ++) {
+			System.out.println(numero4 * ex4);
+		}
+		//5
+		int num5 = 0;
+		for(int ex5 = 1; ex5 <= 50; ex5 ++) {
+			if (ex5%3 == 0) {
+				num5 =+ 1;
+			}
+		}
+		System.out.println(num5);
+	}
+
+}

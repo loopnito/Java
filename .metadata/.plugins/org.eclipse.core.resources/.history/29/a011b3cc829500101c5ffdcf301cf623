@@ -1,0 +1,18 @@
+package primeiroProjeto;
+
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		for(int e = 1;e<=20;e++) 
+			if(e%2== 0) {
+				System.out.println(e);
+			};
+		
+	}
+
+}

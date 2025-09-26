@@ -1,0 +1,15 @@
+package primeiroProjeto;
+
+import java.util.Scanner;
+
+public class Lista13 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		//1
+		for(int ex1 = 10; ex1<= 30; ex1 ++) {
+			System.out.println(ex1);
+		};
+	}
+
+}

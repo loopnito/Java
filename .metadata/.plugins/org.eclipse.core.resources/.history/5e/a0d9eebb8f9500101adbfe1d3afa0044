@@ -1,0 +1,22 @@
+package primeiroProjeto;
+
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int[] ex3 = new int[7];
+		for (int ex1 = 0; ex1 <= 7; ex1++) {
+			System.out.println("digite numero");
+			ex3[ex1] = scanner.nextInt();
+		}
+		for (int ex11 = 6; ex11 >= 0; ex11 --) {
+			System.out.println(ex3[ex11]);
+		}
+		
+	}
+
+}

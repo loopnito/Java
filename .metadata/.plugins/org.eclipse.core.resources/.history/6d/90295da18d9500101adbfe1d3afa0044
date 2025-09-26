@@ -1,0 +1,20 @@
+package primeiroProjeto;
+
+import java.util.Scanner;
+
+public class Lista15 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//1\\
+		String[] frutas = new String[5];
+		for (int ex1 = 0; ex1 <= 4; ex1++) {
+			System.out.println("digite friuta");
+			frutas[ex1] = scanner.next();
+		}
+		System.out.println(frutas);
+	}
+
+}

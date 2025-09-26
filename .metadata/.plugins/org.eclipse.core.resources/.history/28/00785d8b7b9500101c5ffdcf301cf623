@@ -1,0 +1,23 @@
+package primeiroProjeto;
+
+import java.util.Scanner;
+
+public class Lista14 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//1
+		for(int ex1 = 1; ex1 <= 10; ex1 ++) {
+			System.out.println(ex1);
+		}
+		//2
+		for(int ex2 = 1; ex2 <= 100; ex2++) {
+			int soma = 0;
+			soma = soma + ex2;
+			System.out.println(soma);
+		}
+	}
+
+}
