@@ -18,6 +18,15 @@ public class Lista16 {
 			System.out.println(sixpos[i]);
 		}
 		
+		//2
+		double[] eightpos = new double [8];
+		for (int i = 0; i < eightpos.length; i++) {
+			System.out.println("digite decimal");
+			eightpos[i] = scanner.nextDouble();
+		}
+		for (int i = 0; i < eightpos.length; i++) {
+			System.out.println(eightpos[i]);
+		}
 	}
 
 }
