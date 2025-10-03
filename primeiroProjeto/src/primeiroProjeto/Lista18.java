@@ -2,12 +2,21 @@ package primeiroProjeto;
 
 import java.util.Scanner;
 
-public class Lista17 {
+public class Lista18 {
 
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
 		
+		
+		ex1();
+		ex2();
+		ex3();
+		ex4();
+		ex5();
+		ex6();
+		ex7();
+		ex8();
 		ex9();
 		
 	}
