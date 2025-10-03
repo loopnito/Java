@@ -16,6 +16,10 @@ public class Lista19 {
 		ex3(ex3);
 		int ex4 = scanner.nextInt();
 		ex4(ex4);
+		String ex5 = scanner.next();
+		String ex52 = scanner.next();
+		ex5(ex5, ex52);
+		
 		
 		
 	}
@@ -47,5 +51,16 @@ public class Lista19 {
 			System.out.println(num * i);
 		}
 	}
+	
+	public static void ex5(String str, String str2) {
+		System.out.println(str + str2);
+	}
 
+	public static void ex6(int num) {
+		if (num % 1 == 0) {
+			System.out.println("par");
+		} else {
+			System.out.println("impar");
+		}
+	}
 }
