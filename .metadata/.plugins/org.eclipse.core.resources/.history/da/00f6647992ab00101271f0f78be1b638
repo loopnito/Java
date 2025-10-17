@@ -12,32 +12,19 @@ public class Lista20 {
 		multiplo();
 		meses();
 		
-		System.out.println("Divisão");
 		int inte = scanner.nextInt();
 		divisivel(inte);
-		
-		System.out.println("Mensagem");
 		String str = scanner.next();
 		mensagem(str);
-		
-		System.out.println("Nomes");
 		str = scanner.next();
 		String str1 = scanner.next();
 		nomes(str,str1);
-		
-		System.out.println("Maior");
 		inte = scanner.nextInt();
 		ver(inte);
-		
-		System.out.println("Velocidade");
 		inte = scanner.nextInt();
 		vel(inte);
-		
-		System.out.println("Dia");
 		str = scanner.next();
 		dds(str);
-		
-		System.out.println("Quantidade");
 		inte = scanner.nextInt();
 		sde(inte);
 	}
@@ -85,9 +72,9 @@ public class Lista20 {
 	}
 	public static void ver(int vvv) {
 		if (vvv > 100) {
-			System.out.println("maior de 100");
+			System.out.println("maior");
 		} else {
-			System.out.println("menor de 100");
+			System.out.println("menor");
 		}
 	}
 	public static void vel(int vel) {
