@@ -9,10 +9,12 @@ public class AnimalMain {
 		cat.setIdade(6215887);
 		cat.setNome("Jobisklobis");
 		cat.mostrarInfo();
+		cat.subirNoMuro();
 		dog.setIdade(-392);
 		dog.setRaca("Ancião das Trevas");
 		dog.setNome("Bob");
 		dog.mostrarInfo();
+		dog.abanarRabo();
 	}
 	
 }
