@@ -33,7 +33,7 @@ public class OperadoresLogicos {
 		if (ex3ida < 12 || ex3ida > 60) {
 			System.out.println("você é especila :)");
 		} else {
-			System.out.println("Você não é especial.");
+			System.out.println("nah.");
 		}
 		
 		//4
